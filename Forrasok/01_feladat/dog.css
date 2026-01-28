@@ -1,5 +1,5 @@
 body{
-    
+    background-color:#ebd59b;
 }
 
 p{
@@ -9,6 +9,11 @@ p{
 
 nav{
     background-color: rgb(10, 5, 80);
+}
+
+h1, h2{
+    color: #0a0550;
+    font-weight: bold;
 }
 
 li.nav-item{
@@ -22,4 +27,16 @@ p.card-text{
 
 #alap{
     background-color: white;
+}
+
+a {
+    color:#8b0000;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#8b0000  ;
+}
+a.active{
+    color: yellow  ;
 }
